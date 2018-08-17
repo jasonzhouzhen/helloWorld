@@ -72,8 +72,8 @@ public class Lambdas_02_01 {
         System.out.println(list);
         
         //example of using Set to eliminate dups and sort automatically
-        Set<Integer> numbers = new HashSet<>(asList(4, 3, 3, 3, 2, 1, 1, 1));
-        System.out.println(numbers.toString());
+        Set<Integer> numbers1 = new HashSet<>(asList(4, 3, 3, 3, 2, 1, 1, 1));
+        System.out.println(numbers1.toString()+"new features");
        
 
     }
