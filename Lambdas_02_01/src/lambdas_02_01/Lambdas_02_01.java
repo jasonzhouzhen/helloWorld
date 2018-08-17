@@ -61,8 +61,10 @@ public class Lambdas_02_01 {
         System.out.println(dupBooks.toString());
         
         Collection<Book> noDups = new HashSet<>(dupBooks);
-        System.out.println("After removing duplicates: ");
+        System.out.println("After removing dup ");
         System.out.println(noDups.toString());
+
+		System.out.println("new line of code removing duplicates: ");
 
 
         //aggregate author first names into a list
