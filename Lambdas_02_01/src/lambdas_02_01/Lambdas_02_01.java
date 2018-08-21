@@ -23,7 +23,7 @@ public class Lambdas_02_01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("Paul", "Jane", "Michaela", "Sam");
+        List<String> names = Arrays.asList("PaulKKK", "Jane", "Michaela", "Sam");
         //way to sort prior to Java 8 lambdas
         Collections.sort(names, new Comparator<String>() {
             @Override
